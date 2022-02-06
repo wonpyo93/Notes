@@ -1,9 +1,9 @@
 # NSD Manager
 
-## NsdManager: MDNS Service를 검색하거나 Service를 생성하는 기능을 제공하는 구글 API이며, 같은 네트워크에 존재하는 LG Wi-Fi Speaker를 찾을 수 있는 Class
-## The Network Service Discovery Manager class provides the API to discover services on a network.
-## The API currently supports DNS based service discovery and discovery is currently limited to a local network over Multicast DNS(MDNS).
-## The API is asynchronous, and responses to requests from an application are on listener callbacks on a separate internal thread.
+### NsdManager: MDNS Service를 검색하거나 Service를 생성하는 기능을 제공하는 구글 API이며, 같은 네트워크에 존재하는 LG Wi-Fi Speaker를 찾을 수 있는 Class
+### The Network Service Discovery Manager class provides the API to discover services on a network.
+### The API currently supports DNS based service discovery and discovery is currently limited to a local network over Multicast DNS(MDNS).
+### The API is asynchronous, and responses to requests from an application are on listener callbacks on a separate internal thread.
 
 [그림]
 

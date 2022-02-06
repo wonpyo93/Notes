@@ -20,3 +20,6 @@
 ### Once the peer application discovers the ‘Example’ http service, and either needs to read the attributes of the service or wants to receive data from the ‘example’ application, it can initiate a resolve with resolveService() to resolve the attributes, host, and port details.
 
 #### A successful resolve is notified on ResolveListener#onServiceResolved and a failure is notified on ResolveListener#onResolveFailed. 
+
+
+##### (출처: https://developer.android.com/reference/android/net/nsd/NsdManager)

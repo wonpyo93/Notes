@@ -15,6 +15,7 @@
 > ConcurrentLinkedQueue --> non-blocking lock-free queues.
 > > 큐의 사이즈를 지정할 수 없을 뿐만 아니라 size 메서드는 상수 시간에 호출되지 않아서 큐에 들어있는 원소의 개수를 파악하는 것이 어려움.
 > > > 생산자-소비자(producer-consumer) 모델에서 소비자가 많고 생산자가 하나인 경우에 사용하면 좋다. (내 프로젝트 같은 케이스)
+
 > BlockingQueue --> BLocking & Lock Queue.
 > > 생성자의 parameter에 큐의 용량 capacity를 명시하여 size를 지정할 수 있음.
 > > > 새앗ㄴ자가 많고 하나의 소비자일 경우에 사용하면 좋다.

@@ -5,7 +5,7 @@
 ### The API currently supports DNS based service discovery and discovery is currently limited to a local network over Multicast DNS(MDNS).
 ### The API is asynchronous, and responses to requests from an application are on listener callbacks on a separate internal thread.
 
-[그림]
+![image](https://user-images.githubusercontent.com/49303504/152706481-429b6b20-6f39-4172-8105-7574ee527657.png)
 
 ### An application that needs to advertise itself over a network for other applications to discover it can do so with a call to registerService().
 ### If example is a http based application that can provide HTML data to peer services, it can register a name ‘Example’ with servie type ‘_http._tcp’. 그래서 사운드바의 경우, service type을 ‘_lg-smart-device._tcp’로 지정하였음.

@@ -14,9 +14,7 @@ multithread 환경에서는 이게 되지 않는다.
 LinkedList와 같이 Node라는 내부 class를 기반으로 동작.
 
 - 사용 예시:
-
-<pre>
-<code>
+<pre><code>
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 Queue<YourObject> queue = new ConcurrentLinkedQueue<YourObject>();
@@ -26,8 +24,7 @@ put: queue.offer(Data);
 
 //data를 꺼낼 때
 get: queue.poll();
-</code>
-</pre>
+</code></pre>
 
 ### BlockingQueue vs ConcurrentLinkedQueue
 

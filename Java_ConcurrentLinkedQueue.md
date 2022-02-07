@@ -13,6 +13,22 @@ multithread 환경에서는 이게 되지 않는다.
 
 LinkedList와 같이 Node라는 내부 class를 기반으로 동작.
 
+- 사용 예시:
+
+<pre>
+<code>
+import java.util.Queue;
+import java.util.concurrent.ConcurrentLinkedQueue;
+Queue<YourObject> queue = new ConcurrentLinkedQueue<YourObject>();
+
+//data를 offer 할 때
+put: queue.offer(Data);
+
+//data를 꺼낼 때
+get: queue.poll();
+</code>
+</pre>
+
 ### BlockingQueue vs ConcurrentLinkedQueue
 
 - ConcurrentLinkedQueue
@@ -23,7 +39,7 @@ LinkedList와 같이 Node라는 내부 class를 기반으로 동작.
 - BlockingQueue
 > BLocking & Lock Queue.
 > > 생성자의 parameter에 큐의 용량 capacity를 명시하여 size를 지정할 수 있음.
-> > > 새앗ㄴ자가 많고 하나의 소비자일 경우에 사용하면 좋다.
+> > > 생산자가 많고 하나의 소비자일 경우에 사용하면 좋다.
 
 ##### 출처: 
 > [1](https://sup2is.github.io/2019/09/10/concurrent-linked-queue.html)

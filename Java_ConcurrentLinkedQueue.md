@@ -14,6 +14,10 @@ multithread 환경에서는 이게 되지 않는다.
 LinkedList와 같이 Node라는 내부 class를 기반으로 동작.
 
 - 사용 예시:
+> 아까의 예시로, 여러 개의 쓰레드에서 하나의 Queue 객체에 들어있는 데이터를 꺼내기 위해 queue.poll() 메서드를 호출할 경우, 동일한 실행 결과가 나타날 수 있다. 
+> 예를 들어, Queue에 [1, 2, 3]과 같은 데이터가 들어있을 경우,
+> 스레드 3개가 critical section에서 poll() 메서드를 호출하면 각 스레드들은 모두 1이라는 데이터를 가져오고
+> Queue에는 [2, 3]만 남게 된다. 큐가 비어있을 경우 null을 리턴한다.
 <pre><code>
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -25,6 +29,8 @@ put: queue.offer(Data);
 //data를 꺼낼 때
 get: queue.poll();
 </code></pre>
+
+
 
 ### BlockingQueue vs ConcurrentLinkedQueue
 
@@ -41,6 +47,6 @@ get: queue.poll();
 ##### 출처: 
 > [1](https://sup2is.github.io/2019/09/10/concurrent-linked-queue.html)
 > [2](https://jjaesang.github.io/java/2019/07/22/java-blockingqueue-vs-concurrentLinkedQueue.html)
-> [3]( )
+> [3](https://2ham-s.tistory.com/287)
 > [4]( )
 > [5]( )

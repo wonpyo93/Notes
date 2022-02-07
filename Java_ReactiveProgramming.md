@@ -16,7 +16,4 @@
 [to RxJava]()
 
 ##### 출처: 
-> [1](https://4z7l.github.io/2020/12/01/rxjava-1.html)
-> [2]()
-> [3]()
-> [4]()
+> [1](https://4z7l.github.io/2020/12/01/rxjava-1.html

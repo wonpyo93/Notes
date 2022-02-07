@@ -12,9 +12,8 @@
 RxJava는 함수형 프로그래밍 방식으로, 그 구성의 핵심 요소는 **Observable**과  **Operator**.
 <pre><code>
 import io.reactivex.rxjava3.core.Observable;
-
 public class RxExample {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Observable.just(1, 2, 3)
                 .map(x -> x*10)
                 .subscribe(System.out::println);
@@ -29,6 +28,33 @@ public class RxExample {
 ![image](https://user-images.githubusercontent.com/49303504/152710678-d80c289a-38d7-415c-a030-15ea3c4662e0.png)
 > - 1, 2, 3이 연산자 map을 거쳐 10, 20, 30이 되었다.
 
+## Observable
+
+> RxJava의 핵심 요소인 **Observable**.
+![image](https://user-images.githubusercontent.com/49303504/152710786-940a6f25-e628-4523-a210-8ff11aabf2f1.png)
+> **Observable**이 데이터 스트림을 처리하교, 완료하면 데이터를 발행(emit)한다.
+> 데이터를 발행할 때마다 구독하고 있는 Observer가 알림을 받는다.
+> Observer는 수신한 데이터를 가지고 어떠한 일을 한다.
+
+### Subscribe??
+> **Observable**이 데이터를 발행(emit)하고 알림(event)를 보내면,
+> **Observable**을 구독(subscribe)해 데이터를 소비(consume)한다.
+<pre><code>
+// Emitter를 통해 알림을 보낸다고 생각하면 된다
+public interface Emitter<@NonNull T> {
+    void onNext(@NonNull T value);
+    void onError(@NonNull Throwable error);
+    void onComplete();
+}
+</code></pre>
+> - onNext : 데이터의 발행을 알림
+> - onComplete : 모든 데이터의 발행이 완료되었음을 알림, 딱 한 번만 발생하며 이후에 onNext가 발생하면 안됨
+> - onError : 오류가 발생했음을 알림, 이후에 onNext와 onComplete가 발생하지 않음
+
+
+
+
 ##### 출처: 
 > [1](https://4z7l.github.io/2020/12/01/rxjava-1.html)
+> [2](https://4z7l.github.io/2020/12/01/rxjava-2.html)
 > [2](https://reactivex.io/intro.html)

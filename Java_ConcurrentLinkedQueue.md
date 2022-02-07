@@ -2,8 +2,8 @@
 
 
 ### Java의 queue class는 multi-thread 환경에서 critical section에 대한 동기화가 적용되어 있지 않아서,
-### queue.poll(), 즉 queue 객체 맨 앞에 들어있는 data를 꺼내오는 동작을 수행하며 해당 data를 queue에서 삭제하는 것으로,
-### 또 다시 queue.poll()를 수행하면 다음 data를 꺼내와야 하는데,
+queue.poll(), 즉 queue 객체 맨 앞에 들어있는 data를 꺼내오는 동작을 수행하며 해당 data를 queue에서 삭제하는 것으로,
+또 다시 queue.poll()를 수행하면 다음 data를 꺼내와야 하는데,
 ### multithread 환경에서는 이게 되지 않는다.
 ### 그래서 ConcurrentLinkedQueue는 thread-safe한 FIFO 자료구조.
 ### LinkedList와 같이 Node라는 내부 class를 기반으로 동작.

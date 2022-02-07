@@ -26,8 +26,9 @@ public class RxExample {
 > - map() : RxJava의 연산자이다. 데이터를 원하는 형태로 바꿀 수 있다.
 > - subscribe() : Observable은 구독(subscribe)을 해야 데이터가 발행된다. 따라서 Observable을 구독하여 데이터를 발행 후, 수신한 데이터를 원하는 방식으로 사용(System.out::println)한다.
 
+![image](https://user-images.githubusercontent.com/49303504/152710678-d80c289a-38d7-415c-a030-15ea3c4662e0.png)
+> - 1, 2, 3이 연산자 map을 거쳐 10, 20, 30이 되었다.
+
 ##### 출처: 
 > [1](https://4z7l.github.io/2020/12/01/rxjava-1.html)
 > [2](https://reactivex.io/intro.html)
-> [3]()
-> [4]()

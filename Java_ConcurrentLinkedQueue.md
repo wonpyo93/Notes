@@ -48,5 +48,4 @@ get: queue.poll();
 > [1](https://sup2is.github.io/2019/09/10/concurrent-linked-queue.html)
 > [2](https://jjaesang.github.io/java/2019/07/22/java-blockingqueue-vs-concurrentLinkedQueue.html)
 > [3](https://2ham-s.tistory.com/287)
-> [4]( )
-> [5]( )
+> [4](https://sungjk.github.io/2016/11/02/Queue.html)

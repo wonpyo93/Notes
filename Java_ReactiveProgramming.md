@@ -13,7 +13,7 @@
 > 
 > 따라서 Reactive 프로그래밍은 주변 환경과 끊임없이 상호작용을 한다. 다만 프로그램이 주도하는 것이 아니라 환경이 변하면 이벤트를 받아 동작함으로써 상호작용한다.
 
-[to RxJava]()
+[to RxJava](https://github.com/wonpyo93/Notes/blob/main/Java_RxJava.md)
 
 ##### 출처: 
 > [1](https://4z7l.github.io/2020/12/01/rxjava-1.html

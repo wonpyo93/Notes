@@ -51,6 +51,16 @@ public interface Emitter<@NonNull T> {
 > - onComplete : 모든 데이터의 발행이 완료되었음을 알림, 딱 한 번만 발생하며 이후에 onNext가 발생하면 안됨
 > - onError : 오류가 발생했음을 알림, 이후에 onNext와 onComplete가 발생하지 않음
 
+제일 쉽게 설명을 하자면,
+A와 B가 있다.
+A는 B가 뭘 하는지 모르지만 B가 소리를 치면 들을 수 있다.
+B는 아프다면 소리 지른다.
+A는 B가 소리를 치는 순간 춤을 춘다.
+
+여기서 A가 소리를 들을 수 있다가 Subscribe.
+춤을 춘다는 do something
+B가 소리를 지르는건 emit (onNext)
+B가 아프다면은 B 내부 사정.
 
 
 

@@ -22,4 +22,4 @@
 #### A successful resolve is notified on ResolveListener#onServiceResolved and a failure is notified on ResolveListener#onResolveFailed. 
 
 
-##### (출처: https://developer.android.com/reference/android/net/nsd/NsdManager)
+##### (출처: [1](https://developer.android.com/reference/android/net/nsd/NsdManager))

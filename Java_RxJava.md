@@ -60,7 +60,7 @@ public interface Emitter<@NonNull T> {
 >
 > A는 B가 소리를 치는 순간 춤을 춘다.
 >
->
+> --------------------------------
 >
 > 여기서 A는 Observer, B는 Observable.
 >

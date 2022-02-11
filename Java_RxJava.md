@@ -57,4 +57,4 @@ public interface Emitter<@NonNull T> {
 ##### 출처: 
 > [1](https://4z7l.github.io/2020/12/01/rxjava-1.html)
 > [2](https://4z7l.github.io/2020/12/01/rxjava-2.html)
-> [2](https://reactivex.io/intro.html)
+> [3](https://reactivex.io/intro.html)

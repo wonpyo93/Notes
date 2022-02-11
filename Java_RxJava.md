@@ -53,14 +53,22 @@ public interface Emitter<@NonNull T> {
 
 ### 예시로 이해하기.
 > A와 B가 있다.
+
 > A는 B가 뭘 하는지 모르지만 B가 소리를 치면 들을 수 있다.
+
 > B는 아프다면 소리 지른다.
+>
 > A는 B가 소리를 치는 순간 춤을 춘다.
 >
+>
 > 여기서 A는 Observer, B는 Observable.
+>
 > 여기서 A가 소리를 들을 수 있다가 Subscribe.
+>
 > 춤을 춘다는 do something
+
 > B가 소리를 지르는건 emit (onNext)
+
 > B가 아프다면은 B 내부 사정.
 
 

@@ -7,17 +7,13 @@
 설치 방법.
 
 1.
-
-![image](https://user-images.githubusercontent.com/49303504/153522737-3ba64785-1177-4fd2-87e5-e8f7e5d9c71d.png)
+> ![image](https://user-images.githubusercontent.com/49303504/153522737-3ba64785-1177-4fd2-87e5-e8f7e5d9c71d.png)
 
 2.
-
-본격적으로 Wi-Fi 연결에 앞서, 두 가지 조건을 먼저 달성해야 한다.
-  - PC와 스마트폰이 동일한 무선 와이파이에 접속되어 있어야 한다.
-  - 처음 연결 때는 먼저 USB 연결 선으로 컴퓨터와 폰을 연결해야 한다.
-
-그 후에
-
-![image](https://user-images.githubusercontent.com/49303504/153522876-3da433d4-b263-43f3-b9f7-7f9dbf743acb.png)
-
-저 아이콘만 누르면 끝!
+> 본격적으로 Wi-Fi 연결에 앞서, 두 가지 조건을 먼저 달성해야 한다.
+> - PC와 스마트폰이 동일한 무선 와이파이에 접속되어 있어야 한다.
+> - 처음 연결 때는 먼저 USB 연결 선으로 컴퓨터와 폰을 연결해야 한다.
+> 
+> 그 후에
+> ![image](https://user-images.githubusercontent.com/49303504/153522876-3da433d4-b263-43f3-b9f7-7f9dbf743acb.png)
+> 저 아이콘만 누르면 끝!

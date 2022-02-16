@@ -43,7 +43,7 @@
 > > 
 > > ![image](https://user-images.githubusercontent.com/49303504/154179188-df4ddc4f-897e-44a8-badf-c3f20232e7c6.png)
 
-- Activate
+- Activate / Deactivate
 > Class Sequence Diagram의 경우, 해당 Class가 언제부터 활성화가 되고, 언제 비활성화가 되는지 표시하는 것도 중요하다.
 > > 'Activate 이름', 'Deactivate 이름'으로 표시할 수 있다.
 > > 

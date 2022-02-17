@@ -7,4 +7,8 @@
 
 
 
-##### 출처: [1](https://iamsjy17.github.io/design%20pattern/2020/05/30/designpattern_dependency_injection.html)
+
+
+##### 출처: 
+> [1](https://iamsjy17.github.io/design%20pattern/2020/05/30/designpattern_dependency_injection.html)
+> [2](https://mangkyu.tistory.com/150) <-- 개인적으로 기가막히게 잘 정리했다고 느낀 
